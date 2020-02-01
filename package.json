@@ -5,11 +5,14 @@
   },
   "dependencies": {
     "@actions/core": "^1.2.2",
-    "@actions/exec": "^1.0.3"
+    "@actions/exec": "^1.0.3",
+    "@actions/io": "^1.0.2",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-async-to-generator": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
