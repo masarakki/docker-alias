@@ -1,5 +1,12 @@
 name: 'alias command to docker'
 author: 'masarakki'
+inputs:
+  image:
+    description: 'docker image name'
+    required: true
+  commands:
+    description: 'array of commands'
+    required: true
 runs:
   using: 'node12'
   main: 'lib/index.js'
