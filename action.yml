@@ -1,0 +1,5 @@
+name: 'alias command to docker'
+author: 'masarakki'
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
