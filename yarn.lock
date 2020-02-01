@@ -14,7 +14,7 @@
   dependencies:
     "@actions/io" "^1.0.1"
 
-"@actions/io@^1.0.1":
+"@actions/io@^1.0.1", "@actions/io@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@actions/io/-/io-1.0.2.tgz#2f614b6e69ce14d191180451eb38e6576a6e6b27"
   integrity sha512-J8KuFqVPr3p6U8W93DOXlXW6zFvrQAJANdS+vw0YhusLIq+bszW8zmK2Fh1C2kDPX8FMvwIl1OUcFgvJoXLbAg==
@@ -2880,6 +2880,11 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+uuid@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
