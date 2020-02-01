@@ -1,1 +1,2 @@
-export default () => ('hello, world');
+const setup = () => ('hello, world');
+setup();
