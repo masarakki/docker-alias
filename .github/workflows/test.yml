@@ -12,7 +12,7 @@ jobs:
       - run: yarn install
       - run: yarn lint
       - run: yarn build
-      - run: test "$(git diff --stat)"
+      - run: test -z "$(git diff lib --stat)"
   action:
     name: action
     runs-on: ubuntu-latest
