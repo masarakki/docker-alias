@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - VERSION
 jobs:
   release:
     name: release
@@ -19,5 +17,5 @@ jobs:
       - run: rm .gitignore
       - run: git add .
       - run: git commit -m 'release'
-      - run: git tag v`cat VERSION`
-      - run: git push --tags
+      - run: git tag --force v`cat VERSION`
+      - run: git push --tags --force
