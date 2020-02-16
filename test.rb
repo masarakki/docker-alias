@@ -1,3 +1,3 @@
 require 'open3'
 
-p sysmte('which', 'extractbb')
+p system('which', 'extractbb')
