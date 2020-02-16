@@ -25,5 +25,9 @@ jobs:
       - uses: ./
         with:
           image: vvakame/review:3.2
-          commands: 'review,platex'
+          commands: 'review,platex,extractbb'
       - run: review version
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - run: ruby test.rb
