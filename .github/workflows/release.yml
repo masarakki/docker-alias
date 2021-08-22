@@ -15,6 +15,9 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: rm .gitignore
+      - run: |
+          git config --global user.name 'masarakki'
+          git config --global user.email 'masaki182@gmail.com'
       - run: git add .
       - run: git commit -m 'release'
       - run: git tag --force v`cat VERSION`
