@@ -4,6 +4,9 @@ inputs:
   image:
     description: 'docker image name'
     required: true
+  commands:
+    description: 'expose commands'
+    required: true
 runs:
   using: 'node12'
   main: 'lib/index.js'

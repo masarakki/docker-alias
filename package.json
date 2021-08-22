@@ -4,9 +4,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@actions/core": "^1.2.2",
-    "@actions/exec": "^1.0.3",
-    "@actions/io": "^1.0.2",
+    "@actions/core": "^1.5.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/io": "^1.1.1",
     "uuid": "^3.4.0"
   },
   "devDependencies": {
