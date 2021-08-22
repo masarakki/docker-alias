@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import { getInput, addPath } from '@actions/core';
 import { exec } from '@actions/exec';
 import { mkdirP } from '@actions/io';
-import uuidv4 from 'uuid/v4';
+import { v4 as uuidv4 } from 'uuid';
 
 const setup = async () => {
   const image = getInput('image');
