@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import { getInput, addPath } from '@actions/core'
 import { exec } from '@actions/exec'
 import { mkdirP } from '@actions/io'
+// eslint-disable-next-line import/no-unresolved
 import { v4 as uuidv4 } from 'uuid'
 
 const setup = async () => {
