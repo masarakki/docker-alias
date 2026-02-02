@@ -41,6 +41,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@actions/io@npm:^3.0.0":
+  version: 3.0.2
+  resolution: "@actions/io@npm:3.0.2"
+  checksum: 10/ef17cb4ec0a2b640d5f4851446ad1c12bf4b2b1cf83741c5eecee4e8f50b3ca3ac9ae4084027dcaa1bf0c016d653dbc0e5fe20daedd39ee5fb6edb671f6e45b5
+  languageName: node
+  linkType: hard
+
 "@babel/cli@npm:^7.8.4":
   version: 7.28.6
   resolution: "@babel/cli@npm:7.28.6"
@@ -4792,7 +4799,7 @@ __metadata:
   dependencies:
     "@actions/core": "npm:^2.0.0"
     "@actions/exec": "npm:^2.0.0"
-    "@actions/io": "npm:^2.0.0"
+    "@actions/io": "npm:^3.0.0"
     "@babel/cli": "npm:^7.8.4"
     "@babel/core": "npm:^7.8.4"
     "@babel/plugin-transform-async-to-generator": "npm:^7.8.3"
