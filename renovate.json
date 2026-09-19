@@ -20,6 +20,11 @@
     {
       "matchManagers": ["github-actions"],
       "groupName": "github-actions"
+    },
+    {
+      "matchPackageNames": ["^@actions/*"],
+      "matchManagers": ["npm"],
+      "groupName": "@actions"
     }
   ],
   "labels": ["dependencies"],
