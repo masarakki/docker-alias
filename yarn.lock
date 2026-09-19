@@ -5,7 +5,7 @@ __metadata:
   version: 10
   cacheKey: 10
 
-"@actions/core@npm:^2.0.0":
+"@actions/core@npm:2.0.3":
   version: 2.0.3
   resolution: "@actions/core@npm:2.0.3"
   dependencies:
@@ -15,7 +15,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/exec@npm:^2.0.0":
+"@actions/exec@npm:2.0.0, @actions/exec@npm:^2.0.0":
   version: 2.0.0
   resolution: "@actions/exec@npm:2.0.0"
   dependencies:
@@ -34,14 +34,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/io@npm:^2.0.0":
+"@actions/io@npm:2.0.0, @actions/io@npm:^2.0.0":
   version: 2.0.0
   resolution: "@actions/io@npm:2.0.0"
   checksum: 10/4f8f98b564fe8974d47f6d9b06721d5bd3034f181be20188554d2ccad530330c218891c4c6f7c3da69883d8e53da513ce335617c0673461d4e064abcc9a6eebb
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:^8.0.0":
+"@babel/cli@npm:8.0.6":
   version: 8.0.6
   resolution: "@babel/cli@npm:8.0.6"
   dependencies:
@@ -76,7 +76,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^8.0.0":
+"@babel/core@npm:8.0.6":
   version: 8.0.6
   resolution: "@babel/core@npm:8.0.6"
   dependencies:
@@ -419,7 +419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-async-to-generator@npm:^8.0.0, @babel/plugin-transform-async-to-generator@npm:^8.0.1":
+"@babel/plugin-transform-async-to-generator@npm:8.0.1, @babel/plugin-transform-async-to-generator@npm:^8.0.1":
   version: 8.0.1
   resolution: "@babel/plugin-transform-async-to-generator@npm:8.0.1"
   dependencies:
@@ -991,7 +991,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^8.0.0":
+"@babel/preset-env@npm:8.0.6":
   version: 8.0.6
   resolution: "@babel/preset-env@npm:8.0.6"
   dependencies:
@@ -1186,7 +1186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^3.3.3":
+"@eslint/eslintrc@npm:3.3.7":
   version: 3.3.7
   resolution: "@eslint/eslintrc@npm:3.3.7"
   dependencies:
@@ -1203,7 +1203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:^10.0.0":
+"@eslint/js@npm:10.0.1":
   version: 10.0.1
   resolution: "@eslint/js@npm:10.0.1"
   peerDependencies:
@@ -2183,7 +2183,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:^15.0.0":
+"eslint-config-airbnb-base@npm:15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
   dependencies:
@@ -2221,7 +2221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.20.0":
+"eslint-plugin-import@npm:2.32.0":
   version: 2.32.0
   resolution: "eslint-plugin-import@npm:2.32.0"
   dependencies:
@@ -2283,7 +2283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.10.0":
+"eslint@npm:10.11.0":
   version: 10.11.0
   resolution: "eslint@npm:10.11.0"
   dependencies:
@@ -3688,19 +3688,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@actions/core": "npm:^2.0.0"
-    "@actions/exec": "npm:^2.0.0"
-    "@actions/io": "npm:^2.0.0"
-    "@babel/cli": "npm:^8.0.0"
-    "@babel/core": "npm:^8.0.0"
-    "@babel/plugin-transform-async-to-generator": "npm:^8.0.0"
-    "@babel/preset-env": "npm:^8.0.0"
-    "@eslint/eslintrc": "npm:^3.3.3"
-    "@eslint/js": "npm:^10.0.0"
-    eslint: "npm:^10.10.0"
-    eslint-config-airbnb-base: "npm:^15.0.0"
-    eslint-plugin-import: "npm:^2.20.0"
-    uuid: "npm:^14.0.0"
+    "@actions/core": "npm:2.0.3"
+    "@actions/exec": "npm:2.0.0"
+    "@actions/io": "npm:2.0.0"
+    "@babel/cli": "npm:8.0.6"
+    "@babel/core": "npm:8.0.6"
+    "@babel/plugin-transform-async-to-generator": "npm:8.0.1"
+    "@babel/preset-env": "npm:8.0.6"
+    "@eslint/eslintrc": "npm:3.3.7"
+    "@eslint/js": "npm:10.0.1"
+    eslint: "npm:10.11.0"
+    eslint-config-airbnb-base: "npm:15.0.0"
+    eslint-plugin-import: "npm:2.32.0"
+    uuid: "npm:14.0.2"
   languageName: unknown
   linkType: soft
 
@@ -4214,7 +4214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^14.0.0":
+"uuid@npm:14.0.2":
   version: 14.0.2
   resolution: "uuid@npm:14.0.2"
   bin:
