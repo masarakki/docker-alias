@@ -22,7 +22,7 @@
       "groupName": "github-actions"
     },
     {
-      "matchPackageNames": ["^@actions/*"],
+      "matchPackageNames": ["/^@actions/*/"],
       "matchManagers": ["npm"],
       "groupName": "@actions"
     }
