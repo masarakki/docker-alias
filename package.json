@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "@babel/cli": "8.0.6",
-    "@babel/core": "8.0.6",
+    "@babel/core": "8.0.7",
     "@babel/plugin-transform-async-to-generator": "8.0.1",
-    "@babel/preset-env": "8.0.6",
+    "@babel/preset-env": "8.0.7",
     "@eslint/eslintrc": "3.3.7",
     "@eslint/js": "10.0.1",
     "eslint": "10.11.0",
